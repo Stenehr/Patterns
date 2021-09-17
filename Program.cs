@@ -4,8 +4,10 @@
     {
         static void Main(string[] args)
         {
-            FactoryPattern.Run();
-            AbstractFactoryPattern.Run();
+            //FactoryPattern.Run();
+            //AbstractFactoryPattern.Run();
+            var builder = new Builder();
+            builder.Run();
         }
     }
 }
