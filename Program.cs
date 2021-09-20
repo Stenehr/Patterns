@@ -6,8 +6,9 @@
         {
             //FactoryPattern.Run();
             //AbstractFactoryPattern.Run();
-            var builder = new Builder();
-            builder.Run();
+            //var builder = new Builder();
+            //builder.Run();
+            Singleton.Run();
         }
     }
 }
