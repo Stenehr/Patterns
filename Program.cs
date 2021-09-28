@@ -1,4 +1,6 @@
-﻿namespace Patterns
+﻿using Patterns.Adapter;
+
+namespace Patterns
 {
     class Program
     {
@@ -8,7 +10,9 @@
             //AbstractFactoryPattern.Run();
             //var builder = new Builder();
             //builder.Run();
-            Singleton.Run();
+            //Singleton.Run();
+
+            AdapterTestRunner.Run();
         }
     }
 }
