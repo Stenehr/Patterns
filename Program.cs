@@ -1,4 +1,4 @@
-﻿using Patterns.Adapter;
+﻿using Patterns.Decorator;
 
 namespace Patterns
 {
@@ -12,7 +12,9 @@ namespace Patterns
             //builder.Run();
             //Singleton.Run();
 
-            AdapterTestRunner.Run();
+            //AdapterTestRunner.Run();
+
+            DecoratorPattern.Run();
         }
     }
 }
